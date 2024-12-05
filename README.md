@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Playlist Generator AI
+## Descrição do Projeto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto utiliza a inteligência artificial para criar uma experiência personalizada para fãs de jogos e animes. Com base no título fornecido pelo usuário, o sistema utiliza modelos da OpenAI para gerar:
 
-## Available Scripts
+- **Capa personalizada:**
+Uma imagem única estilizada inspirada na estética do jogo ou anime solicitado.
+Elementos visuais são criados com base na descrição temática gerada pela OpenAI.
 
-In the project directory, you can run:
+- **Playlist temática:**
+A descrição da playlist é gerada pela OpenAI, incluindo o estilo musical, temas abordados e atmosfera geral.
+Curadoria de músicas que combinam com a estética e o universo do jogo ou anime.
+As letras das músicas são exibidas ao lado para maior imersão.
 
-### `npm start`
+Este projeto combina arte visual e musical, permitindo aos fãs vivenciar suas obras favoritas de maneira inovadora.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Funcionalidades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Entrada personalizada:**
+O usuário insere o nome de um jogo ou anime.
+A OpenAI analisa o tema e gera uma descrição detalhada da estética e da playlist.
 
-### `npm test`
+**Geração da capa:**
+A imagem da capa é criada pela OpenAI (DALL-E ou modelos similares), refletindo os elementos marcantes da obra.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Criação da playlist:**
+A OpenAI sugere o estilo musical e temas da playlist.
+Músicas relacionadas são integradas com base em um dataset.
 
-### `npm run build`
+## Tecnologias
+**Inteligência Artificial:**
+- OpenAI GPT-4: Geração de descrições detalhadas da estética do jogo/anime e da playlist.
+- DALL-E: Criação de imagens para a capa baseada no jogo/anime solicitado.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Frontend:**
+- ReactJS
+**Backend:**
+- Python
