@@ -11,10 +11,10 @@ export function Header() {
 
 const HeaderWrapper = styled.header`
   align-self: stretch;
-  background-color: #107a92;
+  background-color: #1db954;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
   padding: 15px 15px; /* Padding ajustado para 15px no topo e na base */
-  color: #fff;
+  color: #212121;
   font: 600 24px Inter, sans-serif; /* Fonte ajustada para um tamanho menor */
   text-align: center;
 
