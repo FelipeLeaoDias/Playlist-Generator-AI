@@ -34,5 +34,6 @@ Músicas relacionadas são integradas com base em um dataset.
 
 **Frontend:**
 - ReactJS
+
 **Backend:**
 - Python
