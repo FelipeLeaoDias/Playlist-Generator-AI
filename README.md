@@ -35,5 +35,5 @@ Músicas relacionadas são integradas com base em um dataset.
 **Frontend:**
 - ReactJS
 
-**Backend:**
+**[Backend:](https://github.com/VINI-DS001/openai-music-recommender)**
 - Python
